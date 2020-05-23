@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  xyz.yzblog.core.exception.GlobalExceptionHandler,\
+  xyz.yzblog.core.config.WebConfigurer,\
+  xyz.yzblog.core.config.DateTimeConfig,\
+  xyz.yzblog.core.config.TokenConfiguration,\
+  xyz.yzblog.core.config.RedisCacheConfig,\
+  xyz.yzblog.core.config.SwaggerConfig

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+redis:
+  enabled: true
+
+jwt:
+  token:
+    enabled: true
+    expiresSecond: 7200
+    secret: DEMO
+    subject: DEMO
+    audience: DEMO
+    issuer: DEMO
